@@ -1,0 +1,14 @@
+.container{
+    transition: all 0.4s ease-in;
+    text-align: center;
+}
+.page-enter-active,.page-leave-active{
+    transition: opacity .5s;
+}
+.page-enter, .page-leave-active{
+    opacity:0;
+}
+header{
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
