@@ -25,6 +25,9 @@
             axios.get(`${env.endpoint}/albums`)
                 .then(res=> {
                     this.albums = res.data;
+                })
+                .catch(err=>{
+                    console.warn(err);
                 });
         }
     }
